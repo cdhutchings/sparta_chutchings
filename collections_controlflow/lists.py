@@ -36,6 +36,25 @@ print(crazy_landlords)
 crazy_landlords.pop(0)
 print(crazy_landlords)
 
+# Lists can contain any objects
+# e.g. string, int, float, bool, lists, dictionaries ect.
 
+combined_list = [1, '10', 'ten', True, crazy_landlords]
+print(combined_list)
+
+# List slicing
+# Allows you to manage a list
+
+print(combined_list[0::2])
+
+# ^ Double colon :: goes from the number before while taking every nth entry where n is the number after ::
+
+print(combined_list[3:])
+
+# ^ Empty space after colon prints from the first index to the end of the list
+
+print(combined_list[1:3])
+
+# ^ Specifying indices before and after gives the range between the two indices, not inclusive of the last index
 
 
