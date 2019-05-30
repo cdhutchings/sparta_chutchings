@@ -58,3 +58,5 @@ print(list_evil_people[2]['address'])
 for hash in list_evil_people:
     print(hash)
     print(type(hash))
+
+

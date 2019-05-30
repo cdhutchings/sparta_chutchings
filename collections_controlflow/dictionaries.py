@@ -55,3 +55,8 @@ print(keys)
 
 values = cruella_vil.values()
 print(values)
+
+for placeholder in cruella_vil:
+    # When iterating through a dictionary, the keys are returned as the placeholder
+    # To get the values, you must use the [] to access the dictionary
+    print(str(placeholder) + ': ' + str(cruella_vil[placeholder]))
