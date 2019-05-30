@@ -52,3 +52,9 @@ print(list_evil_people[2])
 # Accessing Moriarty's address
 
 print(list_evil_people[2]['address'])
+
+# Loops in dictionary
+
+for hash in list_evil_people:
+    print(hash)
+    print(type(hash))
