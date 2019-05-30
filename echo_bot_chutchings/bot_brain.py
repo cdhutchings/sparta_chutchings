@@ -12,7 +12,7 @@ def what_want(name):
     return f"What do you want, {name}? "
 
 def sleep():
-    return "Sleepiing..."
+    return "Sleeping..."
 
 def response():
     return "Please take a seat and get ready to wait."
