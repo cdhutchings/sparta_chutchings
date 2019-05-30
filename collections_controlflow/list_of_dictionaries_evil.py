@@ -56,7 +56,9 @@ print(list_evil_people[2]['address'])
 # Loops in dictionary
 
 for hash in list_evil_people:
-    print(hash)
-    print(type(hash))
+    print('\n')
+    for embed in hash:
+        print(str(embed) + ':', str(hash[embed]))
+
 
 
