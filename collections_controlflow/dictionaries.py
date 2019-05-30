@@ -43,3 +43,15 @@ print(cruella_vil['skills'])
 
 cruella_vil['favourite_colours'] = 'black and white'
 print(cruella_vil)
+
+# Two useful methods for dictionaries
+
+# 1. Listing all the keys of a dictionary
+
+keys = cruella_vil.keys()
+print(keys)
+
+# 2. Listing all values
+
+values = cruella_vil.values()
+print(values)
