@@ -1,6 +1,6 @@
 # Lists in Python
 # Keeps a list of objects ordered by index
-# This might also be called an 'array' other programming languages
+# This might also be called an 'array' in other programming languages (or "objects" in Java)
 
 # To declare a list, use square brackets [.]
 # Separate objects with commas
