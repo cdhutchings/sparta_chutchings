@@ -1,6 +1,6 @@
-# Required range is 1 to 100, so begin with a for loop for that range
+# Required range is 1 to 100, so begin with a for loop for that range (101 not inclusive)
 
-for x in range(1,100):
+for x in range(1,101):
 
     # Start by setting both of my variables fizz and buzz to be False. This shall be reset on each iteration.
     # Fizz being True indicates a number is divisible by 3
