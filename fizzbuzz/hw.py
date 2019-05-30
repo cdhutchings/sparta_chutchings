@@ -1,5 +1,5 @@
 """
-Create FizzBuzz
+Create FizzBuzz (must be in class and method format)
 What is class?
 Instance of class?
 Method of class?
