@@ -1,11 +1,13 @@
 from fizzbuzz_class import *
 
-for x in range(1,101):
+for x in range(1,151):
 
-    factors = []
+    buzzes = {
+        "fizz": 3,
+        "buzz": 5,
+        "dazz": 7
+    }
 
-    fizz = fizzbuzz(x, 3)
-    factors.append(fizz)
-    buzz = fizzbuzz(x, 5)
-    factors.append(buzz)
+    print(output(x, buzzes))
+
 
