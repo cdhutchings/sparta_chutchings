@@ -1,0 +1,11 @@
+Abstraction: - Modelling the world or a concept that might be complex through attributes and methods. Thus exposing
+relevant information and actions while hiding the complexity (of getting that information or doing these actions). This
+is a method of making things easier to understand for the user.
+
+Encapsulation: - Creating certain functions or processes that can only be called in certain areas or situations. This is
+primarily a safety issue. This avoids negative effects malicious/incompetent persons.
+
+Inheritance: - Allows subclasses to inherit attributes/methods from a parent class whilst adding its own
+attributes/methods.
+
+Polymorphism: - Allowing methods to behave differently in subclasses compared to the parent class.

@@ -34,6 +34,8 @@ for x in range(1,101):
 
 # Already I can see how this program can be made more extendable to include more phrases by use of a list of bools
 # I'm sure I could design this with classes, but I feel this is already simple enough
+# I would create a multitude of functions to describe each aspect of the program, but frankly for a program of this scale
+# it might make it _more_ complicated!
 
 # To be more in-keeping with the principles of Agile, I shall stop now with a working program rather than make things
 # unnecessarily complicated so early on and run the risk of issues!
