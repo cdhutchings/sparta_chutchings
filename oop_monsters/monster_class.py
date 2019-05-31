@@ -1,9 +1,10 @@
 class Monster:
 
-    def __init__(self, name = '', age = ''):
+    def __init__(self, name = '', age = '', rating = ''):
         self.name = name
         self.skills = ["scaring", "jumping"]
         self.age = age
+        self.rating = rating
 
     def sleep(self):
         return "zzzzz"
