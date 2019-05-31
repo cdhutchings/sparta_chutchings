@@ -2,7 +2,7 @@ class Monster:
 
     def __init__(self, name = '', age = ''):
         self.name = name
-        self.skills = []
+        self.skills = ["scaring", "jumping"]
         self.age = age
 
     def sleep(self):
@@ -15,5 +15,6 @@ class Monster:
         return "RAAAAGGGH!!!"
 
     def train(self, skill):
-        return self.skills.append(skill)
+        self.skills.append(skill) # Return not necessary in this case since we are not expecting an output from the
+                                    # function, just a change in the variable 'self'
 

@@ -1,13 +1,14 @@
 from fizzbuzz_class import *
 
-for x in range(1,151):
+maximum = 250
 
-    buzzes = {
-        "fizz": 3,
-        "buzz": 5,
-        "dazz": 7
-    }
+buzzes = {
+    "fizz": 3,
+    "buzz": 5,
+    "dazz": 7,
+    "boom": 11
+}
 
-    print(output(x, buzzes))
+print(output(maximum, buzzes))
 
 

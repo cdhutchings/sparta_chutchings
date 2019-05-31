@@ -8,6 +8,7 @@ from monster_class import *
 
 name = "Sulley"
 age = 3000
+new_skill = "Stealth"
 
 monster_example = Monster(name, age)
 #
@@ -21,54 +22,59 @@ monster_example = Monster(name, age)
 # Each behaviour should have a name and a defined response
 #
 print("sleep -> respond back with 'zzzzz'")
-
 print(monster_example.sleep() == "zzzzz")
-
 print("/////////////")
+
+
 
 print("eat -> 'nomnomnom''")
-
 print(monster_example.eat() == "nomnomnom")
-
 print("/////////////")
+
+
 
 print("scare -> 'RAAAAGGGH!!!'")
-
 print(monster_example.scare() == "RAAAAGGGH!!!")
-
 print("/////////////")
+
+
 
 print("Is skills a list type?")
-
 print(type(monster_example.skills) == list)
-
 print("/////////////")
 
+
+
 print("train -> Adds a skill to list of skills")
-
 before = len(monster_example.skills)
-monster_example.train("stealth")
+monster_example.train(new_skill)
 after = len(monster_example.skills)
-
 print(before + 1 == after)
+print("/////////////")
+
+
+
+print("train adds the correct skill to the list of skills")
+print(monster_example.skills[-1] == new_skill)
+
+
 
 print("___________")
 
 # Attributes
 
+
+
 print("Is 'name' a string?")
 print(type(monster_example.name) == str)
-
 print("/////////////")
 
 print("Is the specified name the same as the name I choose for the monster?")
 print(monster_example.name == name)
-
 print("/////////////")
 
 print("Is age an integer?")
 print(type(monster_example.age) == int)
-
 print("/////////////")
 
 print("Is the age the same as the one I give?")
