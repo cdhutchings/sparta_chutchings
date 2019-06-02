@@ -1,6 +1,13 @@
 class Passenger:
 
-    def __init__(self):
-        self.fname = ''
-        self.lname = ''
-        self.passport = 0
+    # Initialisation function
+
+    passenger_instances = []
+
+    def __init__(self, fname, lname, passport):
+        self.passenger_instances.append(self)
+        self.fname = fname
+        self.lname = lname
+        self.passport = passport
+
+    # Allows receptionist to check a passenger in
