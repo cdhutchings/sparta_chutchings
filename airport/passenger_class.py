@@ -6,8 +6,9 @@ class Passenger:
 
     def __init__(self, fname, lname, passport):
         self.passenger_instances.append(self)
-        self.fname = fname
-        self.lname = lname
+        self.fname = fname.title()
+        self.lname = lname.title()
         self.passport = passport
 
-    # Allows receptionist to check a passenger in
+    def fullname(self):
+        return fname + ' ' + lname

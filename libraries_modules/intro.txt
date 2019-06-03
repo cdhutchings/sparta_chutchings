@@ -1,0 +1,3 @@
+Packages require installation (e.g. pytest)
+
+Libraries are already included in python and simply need to be called.
